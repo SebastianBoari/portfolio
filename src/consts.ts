@@ -4,7 +4,7 @@ export const SITE: Site = {
   NAME: "Sebastián Boari",
   EMAIL: "luciosebastianboari@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 0,
-  NUM_WORKS_ON_HOMEPAGE: 3,
+  NUM_WORKS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 4,
 };
 
@@ -20,7 +20,7 @@ export const WORK: Metadata = {
 
 export const PROJECTS: Metadata = {
   TITLE: "Proyectos",
-  DESCRIPTION: "Coleccion de proyectos de desarrollo web de Sebastián Boari",
+  DESCRIPTION: "Colección de proyectos de desarrollo web de Sebastián Boari",
 };
 
 export const SOCIALS: Socials = [

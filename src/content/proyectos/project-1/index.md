@@ -1,76 +1,58 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "Wannachat"
+description: "Chat en tiempo real con websockets y handlebars."
+date: "Oct 22 2023"
+demoURL: "https://fuchsia-scintillating-drawbridge.glitch.me/"
+repoURL: "https://github.com/SebastianBoari/wannachat/tree/main"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+[![Banner de WannaChat!](https://github.com/SebastianBoari/wannachat/blob/main/src/public/assets/readme/banner-wanna-chat.png?raw=true)](https://fuchsia-scintillating-drawbridge.glitch.me)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+*Haz clic en el banner ubicado en la parte superior para ser redirigido al proyecto desplegado en Glitch.com*
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+------------
 
-## 🚀 Deploy your own
 
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+# WannaChat
+WannaChat es una aplicación de chat en tiempo real desarrollada como proyecto de práctica para demostrar mis habilidades actuales de desarrollo. Permite a los usuarios comunicarse a través de mensajes de texto utilizando websockets.
 
-## 📋 Features
+### Características principales
+- Interfaz de usuario intuitiva y atractiva.
+- Comunicación en tiempo real utilizando websockets.
+- Validación de mensajes para garantizar que no excedan los 144 caracteres y no estén vacíos.
+- Historial de mensajes previos para que los nuevos usuarios puedan ponerse al día.
+- Posibilidad de establecer un nombre de usuario único para identificarse en el chat.
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
+![Screenshot del inicio de WannaChat](https://github.com/SebastianBoari/wannachat/blob/main/src/public/assets/readme/screenshot.png?raw=true)
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](/lighthouse.png)
+### Instalación
+1. Clona este repositorio en tu máquina local.
+2. Abre una terminal en el directorio raíz del proyecto.
+3. Ejecuta el siguiente comando para instalar las dependencias:
+`npm install`
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+### Uso
+1. Ejecuta la aplicación con el siguiente comando: 
+`npm run dev`
+2. Abre tu navegador web e ingresa la siguiente URL: http://localhost:8080.
+3. Ingresa un nombre de usuario y comienza a chatear con otros usuarios en tiempo real.`
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+![Gif de inicio](https://github.com/SebastianBoari/wannachat/blob/main/src/public/assets/readme/intro-gif.gif?raw=true)
 
-## 📄 Configuration
+### Tecnologías utilizadas
+1. Node.js
+2. ExpressJS
+3. Socket.io
+4. Handlebars
+5. SASS
+6. JavaScript Vanilla ES19
 
-The blog posts on the demo serve as the documentation and configuration.
+![gif completo](https://github.com/SebastianBoari/wannachat/blob/main/src/public/assets/readme/complete-gif.gif?raw=true)
 
-## 💻 Commands
+Este proyecto es solo una muestra de mis habilidades y está abierto a mejoras y personalizaciones adicionales. Siéntete libre de explorar el código y adaptarlo según tus necesidades.
 
-All commands are run from the root of the project, from a terminal:
+¡Disfruta chateando en tiempo real con WannaChat!
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+------------
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
-
-## 🏛️ License
-
-MIT
+*Readme generado por chatGPT*

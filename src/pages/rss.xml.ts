@@ -8,7 +8,7 @@ type Context = {
 
 export async function GET(context: Context) {
 
-  const projects = (await getCollection("projects"))
+  const projects = (await getCollection("proyectos"))
     .filter(project => !project.data.draft);
 
   const items = [...projects]

@@ -2,43 +2,34 @@ import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
   NAME: "Sebastián Boari",
-  EMAIL: "luciosebastianboari@gmail",
-  NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  EMAIL: "luciosebastianboari@gmail.com",
+  NUM_POSTS_ON_HOMEPAGE: 0,
+  NUM_WORKS_ON_HOMEPAGE: 3,
+  NUM_PROJECTS_ON_HOMEPAGE: 4,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
-};
-
-export const BLOG: Metadata = {
-  TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "Portfolio de desarrollo web de Sebastián Boari.",
 };
 
 export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  TITLE: "Educación",
+  DESCRIPTION: "Formación académica y certificados de Sebastián Boari.",
 };
 
 export const PROJECTS: Metadata = {
-  TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  TITLE: "Proyectos",
+  DESCRIPTION: "Coleccion de proyectos de desarrollo web de Sebastián Boari",
 };
 
 export const SOCIALS: Socials = [
   { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
-  { 
     NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    HREF: "https://github.com/SebastianBoari"
   },
   { 
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    HREF: "https://www.linkedin.com/in/lucio-sebastian-boari/",
   }
 ];
